@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.text {
+    width: 696px;
+}
+
+p {
+    margin-right: 50px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+img {
+    width: 600px;
+}
+
+.content {
+    display: flex;
+}
+
+.block {
+    width: 320px;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: right;
+    gap: 0;
+    padding: 0;
+}
+
+.block img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.caption {
+  background: #33587c;
+  color: white;
+  padding: 8px;
+  margin: 0;
+  margin-bottom: 20px;
+  padding-left: 70px;
+  padding-right: 20px;
+  font-size: 14px;
+  border-radius: 0 0 8px 8px;
+}
+
+.text p:nth-child(2) {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+/* Default (your current flex) */
+.content {
+  display: flex;
+  gap: 20px;
+}
+
