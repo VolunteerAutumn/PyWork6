@@ -1,0 +1,104 @@
+body {
+    width: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mails {
+    width: 100%;
+}
+
+.button {
+    width: 170px;
+    align-items: center;
+    display: flex;
+    padding: 15px;
+}
+
+.button:hover {
+    background-color: #f4e4e4;
+    cursor: pointer;
+}
+
+nav > img {
+    width: 40px;
+    height: 40px;
+}
+
+nav > .title {
+    margin-left: 10px;
+}
+
+nav > .email {
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+nav {
+    display: flex;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+ul {
+    list-style-type: none;;
+}
+
+main {
+    display: flex;
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+}
+
+.star {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.mailcontent {
+    color: gray;
+}
+
+main > #menu > ul > .button > img {
+    margin-right: 10px;
+}
+body > main > ul.mails > hr {
+    background-color: lightgray;
+}
+
+.m3 {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.m3 > p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.m2 {
+  display: flex;
+  align-items: center;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.m2 > p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#no {
+    display: none;
+}
+.pin {
+    margin-right: 30px;
+}
+
+main > .mails > .mail > p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
